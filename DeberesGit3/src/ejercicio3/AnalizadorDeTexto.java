@@ -51,5 +51,8 @@ public class AnalizadorDeTexto {
 		return repeticion;
 
 	}
+	
+	/*para la longitud de las palabras queria usar en principio un metodo static int donde dentro usaria el metodo length y el split separandolos en un array de caracteres pero no se como hcaer eso todavia pero por falta de tiempo y entendimiento no puedo*/	
+	
+	}
 
-}
