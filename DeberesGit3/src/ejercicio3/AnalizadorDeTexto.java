@@ -20,7 +20,7 @@ public class AnalizadorDeTexto {
 		String[] palabras = texto.split("\\s+");
 
 		System.out.println(
-				"La cantidad de palabras en el texto es: " + contadordepalabras(texto) + frecuenciadepalabras(texto));
+				"La cantidad de palabras en el texto es: " + contadordepalabras(texto) + frecuenciadepalabras(texto) + longitud(texto));
 	}
 
 	private static int contadordepalabras(String texto) {
@@ -52,7 +52,11 @@ public class AnalizadorDeTexto {
 
 	}
 	
-	/*para la longitud de las palabras queria usar en principio un metodo static int donde dentro usaria el metodo length y el split separandolos en un array de caracteres pero no se como hcaer eso todavia pero por falta de tiempo y entendimiento no puedo*/	
+	public static int longitud (String text) {
+		int l = text.length();
+		return l;
+	}
+	
 	
 	}
 
